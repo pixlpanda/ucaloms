@@ -1,0 +1,44 @@
+.input-placeholder {
+  position: relative;
+}
+.input-placeholder input {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.placeholder-i {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  bottom: 0;
+  height: 25px;
+  left: 10px;
+  margin: auto;
+  color: #ccc;
+}
+.card-brand {
+  transition: all 0.3s;
+  z-index: 0 !important;
+}
+
+.card-brand:hover {
+  transform: scale(1.15);
+  z-index: 100 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

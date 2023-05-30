@@ -1,0 +1,1 @@
+<?= view_cell('user/PageTitle::set_page_title'); ?>
